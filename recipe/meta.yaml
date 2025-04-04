@@ -1,5 +1,5 @@
 {% set name = "setfit" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/setfit-{{ version }}.tar.gz
-  sha256: 5e7127272e77a967bc34152cf37faba8c9a94b47cde664aed5a25cda883a3bc4
+  sha256: d126e5ec439c3c0832426eed287007b66c543ff2fdd1ff4312719215ca00d439
 
 build:
   noarch: python
